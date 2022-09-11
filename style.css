@@ -1,0 +1,85 @@
+.heading{
+    font-size: 40px;
+    width: 100%;
+    margin: 0px;
+    color: lightgreen;
+    animation-name:Amazon;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.heading:hover{
+    color: darkred;
+}
+@keyframes Amazon{
+    0%{box-shadow: 15px 15px 15px red;}
+    20%{box-shadow: 15px 15px 15px lightgreen;}
+    40%{box-shadow: 15px 15px 15px lightblue;}
+    60%{box-shadow: 15px 15px 15px pink;}
+    80%{box-shadow: 15px 15px 15px purple;}
+    100%{box-shadow: 15px 15px 15px yellowgreen;}
+}
+.note{
+    font-size: 25px;
+    color: black;
+}
+.note:hover{
+    color: blueviolet;
+}
+.copy_right_footer{
+    color: blue;
+    position:fixed;
+    bottom:0;
+    text-align: center;
+    width: 100%;
+    line-height: 3;
+}
+.copy_right_footer:hover{
+    color: transparent;
+}
+body{
+    animation-name: LOST;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes LOST{
+    0%{background-color: red;}
+    20%{background-color:lightgreen;}
+    40%{background-color:lightblue;}
+    60%{background-color:pink;}
+    80%{background-color:purple;}
+    100%{background-color:yellowgreen;}
+}
+
+canvas{
+    box-shadow: 35px 35px 35px black;
+    border: 10px ridge darkmagenta;
+    animation-name: FOUND;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes FOUND{
+    0%{border-color: red;}
+    20%{border-color:lightgreen;}
+    40%{border-color:lightblue;}
+    60%{border-color:pink;}
+    80%{border-color:purple;}
+    100%{border-color:yellowgreen;}
+}
+
+video{
+    box-shadow: 35px 35px 35px black;
+    border: 15px ridge darkmagenta;
+    animation-name: LOSTANDFOUND;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes LOSTANDFOUND{
+    0%{border-color: red;}
+    20%{border-color:lightgreen;}
+    40%{border-color:lightblue;}
+    60%{border-color:pink;}
+    80%{border-color:purple;}
+    100%{border-color:yellowgreen;}
+}
